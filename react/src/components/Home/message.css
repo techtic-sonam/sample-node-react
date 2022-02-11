@@ -1,0 +1,239 @@
+.link-preview {
+  padding: 10px;
+  background: #ffffff;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  margin-top: 10px;
+  outline: none;
+  box-shadow: none;
+}
+
+.messgae-content .link-preview:last-child {
+  margin-bottom: 7px;
+}
+
+.link-preview a {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.preview-older {
+  padding: 0;
+}
+
+.preview-older .load-preview {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: #423c3a;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.preview-older a.link {
+  padding: 10px;
+  display: block;
+  background: #5b5553;
+  color: #fff;
+}
+
+.arrow-right {
+  float: right;
+  padding-top: 5px;
+}
+
+.infinite-scroll-component {
+  overflow-x: hidden !important;
+}
+
+.modalFooter {
+  display: block !important;
+}
+
+.updateBtn {
+  float: right;
+  padding: 12px 30px 11px 30px !important;
+}
+
+.deleteBtn {
+  float: left;
+  padding: 12px 30px 11px 30px !important;
+}
+
+.modalHeader {
+  padding: 0;
+  border-bottom: none;
+}
+
+.modalHeader .modal-header {
+  border-bottom: none;
+}
+
+.modalHeader .modal-footer {
+  border-top: none;
+}
+
+.sentiment_result {
+  color: #3db16b;
+}
+
+.close-icon {
+  color: #ea4141;
+}
+
+.error-tooltip .tooltip-inner {
+  color: #ea4141;
+  font-weight: bold;
+}
+.schedule-edit {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.select-box {
+  position: relative;
+  z-index: 1050;
+}
+.startConversation {
+  float: right;
+  margin-top: 31px;
+  line-height: normal !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  margin-right: 1px;
+}
+.sms-cancel-button {
+  margin-top: 31px;
+  line-height: normal !important;
+  padding: 12px 30px 11px 30px !important;
+}
+.callPhone-icon {
+  background: #5fbc76 !important;
+  border-radius: 50%;
+  color: #292F4C !important;
+  width: 35px !important;
+  height: 35px;
+  line-height: 35px !important;
+  text-align: center;
+  padding: 0 !important;
+  display: inline-block !important;
+}
+.callPhone-icon i {
+  color: #292F4C !important;
+  mix-blend-mode: normal;
+}
+
+.modal-received-call .modal-content{
+  background-color: #000 !important;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.end-call {
+  border-radius: 25px;
+  background-color: red !important;
+  margin-right: 20px
+}
+.receive-call {
+  border-radius: 25px;
+  background-color: #5fbc76 !important;
+}
+.sender-user-image {
+    border-radius: 100%;
+    width: 52px;
+    height: 52px;
+    margin-right: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+.sender-user-image img {
+  width: 100%;
+  height: 100%;
+}
+.incoming-sender {
+  display: flex;
+}
+.schedule-modal.light-modal .modal-content  .schedule-header{
+  font-weight: 900;
+  font-size: 18px;
+  color: #181C2F;
+  background-color: white !important ;
+}
+.receiver-name {
+  margin: 20px 0px;
+  color: #fff;
+  opacity: 0.6
+}
+.error-close-icon {
+  padding-left: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #D10E0E;
+}
+.audio-voice {
+  display: flex;
+}
+.audio-mic {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.deleteContact {
+  padding: 12px 38px 11px 39px !important;
+}
+.cancel-btn {
+  padding: 12px 30px 11px 31px !important;
+}
+.start-buttons {
+  display: flex;
+}
+.start-buttons .dropdown > button {
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+  margin-left: 0!important;
+  border-left: 1px solid #1f934d!important;
+  border-radius: 5px;
+  background: #3db16b;
+  border-color: #3db16b;
+  margin-top: 31px;
+  padding: 17px 14px 17px 14px !important;
+  font-size: 14px;
+  border: none;
+}
+.start-buttons .dropdown > button .schedule-dropdown:focus, 
+.schedule-dropdown:active,
+.schedule-dropdown:hover {
+  box-shadow: none !important;
+  background: #3db16b !important;
+  border-color: #3db16b !important;
+}
+.users-list-action {
+  position: absolute;
+  top: 25px;
+  right: 29px;
+  bottom: auto;
+}
+.layout .users-list-action .action-toggle .dropdown .drop-btn {
+  position: static;
+  background: none !important;
+  border-color: transparent !important;
+  outline: none;
+  color: #3db16b;
+}
+.layout .list-group-item:hover .drop-btn {
+  outline: none !important;
+  color: #fff !important;
+}
+.layout .card-body .users-list-action .action-toggle .dropdown .drop-btn:hover {
+  color: #5fbc76 !important;
+  outline: none
+}
+.drop-btn.btn.btn-secondary:not(:disabled):not(.disabled):focus {
+  outline: none !important;
+  box-shadow: none !important
+}

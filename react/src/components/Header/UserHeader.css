@@ -1,0 +1,107 @@
+.right-heading {
+  background: #fff;
+  border: none;
+  color: #000;
+  padding: 0 20px 0 0;
+}
+
+.right-heading > div {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 3px 10px;
+}
+.header-dash {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+}
+
+.user-header h5 {
+  font-size: 19px !important;
+}
+
+.user-header .header-action {
+  margin-top: 15px;
+}
+
+.user-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.user-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.user-header figure {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.user-header h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.user-header figure .user-image label {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  font-size: 16px;
+  display: none;
+}
+
+.user-header figure .user-image label {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  font-size: 16px;
+  display: none;
+}
+.user-header figure .user-image label i {
+  color: #3db16b;
+  font-size: 16px;
+  border: 1px solid #3db16b;
+}
+.user-header figure:hover .user-image label {
+  display: block;
+}
+
+.right-links {
+  align-items: center;
+  display: flex;
+  padding-left: 30px;
+}
+
+.right-links > div {
+  font-size: 22px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.link-pointer {
+  cursor: pointer;
+}

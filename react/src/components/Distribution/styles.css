@@ -1,0 +1,94 @@
+.layout-admin .content .distribution {
+  padding: 25px;
+  display: flex;
+  flex: 1 1;
+  min-height: calc(100vh - 70px);
+  overflow: hidden;
+}
+.distribution .distributionList {
+  margin-right: 30px;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 350px;
+  padding: 20px;
+  height: calc(100vh - 125px);
+}
+.distributionList .listHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.distributionList .headerTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.distributionList .lists {
+  height: 100%;
+}
+.distributionList .lists .list {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 15px 0px 15px 20px;
+  border-top: 1px solid #ebebeb !important;
+  display: flex;
+  justify-content: space-between;
+}
+.distributionList .lists .list div {
+  width: 90%;
+}
+
+.distributionList .lists .list .edit-btn:hover {
+  color: #3db16b;
+}
+.distributionList .lists .active-list {
+  position: relative;
+}
+.distributionList .lists .active-list::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 53px;
+  background-color: #3db16b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.distributionList .lists .list:last-child {
+  border-bottom: 1px solid #ebebeb !important;
+}
+.distributionList .list i {
+  font-size: 15px;
+  font-weight: 900;
+  margin-right: 10px;
+}
+.distribution .contactList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.distribution .contactList table tbody {
+  background: #ffffff;
+}
+.distribution .contactList table thead th {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #3db16b;
+  color: #ffffff;
+}
+.distribution .contactList table td {
+  vertical-align: middle;
+}
+.distribution .contactList table td.td-center {
+  text-align: center;
+}
+.distribution .contactList table td i {
+  font-size: 20px;
+}
